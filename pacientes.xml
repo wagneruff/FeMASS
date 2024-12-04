@@ -1,0 +1,259 @@
+<list>
+  <paciente>
+    <nomeCompleto>Joao Silva</nomeCompleto>
+    <dataNascimento>1999-01-01 02:00:00.0 UTC</dataNascimento>
+    <genero>MASCULINO</genero>
+    <endereco>
+      <rua>Rua das Palmeiras</rua>
+      <bairro>Centro</bairro>
+      <cidade>Sao Paulo</cidade>
+      <estado>Sao Paulo</estado>
+      <cep>12345678</cep>
+      <numero>100</numero>
+    </endereco>
+    <contato>
+      <telefone>1122334455</telefone>
+      <celular>11987654321</celular>
+      <email>joao.silva@example.com</email>
+    </contato>
+    <idPaciente>1</idPaciente>
+    <idade>23</idade>
+    <dataCadastro>2012-02-12 02:00:00.0 UTC</dataCadastro>
+    <obsGeral>Paciente saudavel</obsGeral>
+    <consultaMedica>
+      <telefone>1122334455</telefone>
+      <celular>11987654321</celular>
+      <email>claudia.silva@example.com</email>
+      <idResponsavel>1</idResponsavel>
+      <nomeResponsavel>Claudia Silva</nomeResponsavel>
+    </consultaMedica>
+  </paciente>
+  <paciente>
+    <nomeCompleto>Maria Oliveira</nomeCompleto>
+    <dataNascimento>1965-03-15 02:00:00.0 UTC</dataNascimento>
+    <genero>FEMININO</genero>
+    <endereco>
+      <rua>Avenida Brasil</rua>
+      <bairro>Jardim</bairro>
+      <cidade>Rio de Janeiro</cidade>
+      <estado>Rio de Janeiro</estado>
+      <cep>87654321</cep>
+      <numero>200</numero>
+    </endereco>
+    <contato>
+      <telefone>2134567890</telefone>
+      <celular>21912345678</celular>
+      <email>maria.oliveira@example.com</email>
+    </contato>
+    <idPaciente>2</idPaciente>
+    <idade>55</idade>
+    <dataCadastro>2000-02-23 02:00:00.0 UTC</dataCadastro>
+    <obsGeral>Paciente com historico de hipertensao</obsGeral>
+    <consultaMedica>
+      <telefone>2134567890</telefone>
+      <celular>21912345678</celular>
+      <email>carlos.oliveira@example.com</email>
+      <idResponsavel>2</idResponsavel>
+      <nomeResponsavel>Carlos Oliveira</nomeResponsavel>
+    </consultaMedica>
+    <consultaMedica>
+      <telefone>11-981654782</telefone>
+      <idResponsavel>1732315742969</idResponsavel>
+      <nomeResponsavel>Márcio</nomeResponsavel>
+    </consultaMedica>
+  </paciente>
+  <paciente>
+    <nomeCompleto>Carlos Pereira</nomeCompleto>
+    <dataNascimento>1978-04-20 03:00:00.0 UTC</dataNascimento>
+    <genero>MASCULINO</genero>
+    <endereco>
+      <rua>Rua das Flores</rua>
+      <bairro>Bairro Novo</bairro>
+      <cidade>Curitiba</cidade>
+      <estado>Parana</estado>
+      <cep>54321098</cep>
+      <numero>300</numero>
+    </endereco>
+    <contato>
+      <telefone>4135678901</telefone>
+      <celular>41923456789</celular>
+      <email>carlos.pereira@example.com</email>
+    </contato>
+    <idPaciente>3</idPaciente>
+    <idade>44</idade>
+    <dataCadastro>2022-02-02 03:00:00.0 UTC</dataCadastro>
+    <obsGeral>Paciente diabetico</obsGeral>
+    <consultaMedica>
+      <telefone>4135678901</telefone>
+      <celular>41923456789</celular>
+      <email>ana.pereira@example.com</email>
+      <idResponsavel>3</idResponsavel>
+      <nomeResponsavel>Ana Pereira</nomeResponsavel>
+    </consultaMedica>
+    <consultaMedica>
+      <telefone>11-265987456</telefone>
+      <idResponsavel>1732323295900</idResponsavel>
+      <nomeResponsavel>Maria</nomeResponsavel>
+    </consultaMedica>
+  </paciente>
+  <paciente>
+    <nomeCompleto>Ana Santos</nomeCompleto>
+    <dataNascimento>1990-08-25 03:00:00.0 UTC</dataNascimento>
+    <genero>FEMININO</genero>
+    <endereco>
+      <rua>Rua das Laranjeiras</rua>
+      <bairro>Jardim Botanico</bairro>
+      <cidade>Rio de Janeiro</cidade>
+      <estado>Rio de Janeiro</estado>
+      <cep>22240110</cep>
+      <numero>101</numero>
+    </endereco>
+    <contato>
+      <telefone>2123456789</telefone>
+      <celular>21987654321</celular>
+      <email>ana.santos@example.com</email>
+    </contato>
+    <idPaciente>4</idPaciente>
+    <idade>30</idade>
+    <dataCadastro>2015-03-15 03:00:00.0 UTC</dataCadastro>
+    <obsGeral>Paciente com asma</obsGeral>
+    <consultaMedica>
+      <telefone>2123456789</telefone>
+      <celular>21987654321</celular>
+      <email>jose.santos@example.com</email>
+      <idResponsavel>4</idResponsavel>
+      <nomeResponsavel>Jose Santos</nomeResponsavel>
+    </consultaMedica>
+    <consultaMedica>
+      <telefone>21-98654712</telefone>
+      <idResponsavel>1732323215866</idResponsavel>
+      <nomeResponsavel>Paulo Cardec</nomeResponsavel>
+    </consultaMedica>
+  </paciente>
+  <paciente>
+    <nomeCompleto>Pedro Lima</nomeCompleto>
+    <dataNascimento>1992-02-14 03:00:00.0 UTC</dataNascimento>
+    <genero>MASCULINO</genero>
+    <endereco>
+      <rua>Rua das Acacias</rua>
+      <bairro>Centro</bairro>
+      <cidade>Sao Paulo</cidade>
+      <estado>Sao Paulo</estado>
+      <cep>12345679</cep>
+      <numero>202</numero>
+    </endereco>
+    <contato>
+      <telefone>1122334456</telefone>
+      <celular>11987654323</celular>
+      <email>pedro.lima@example.com</email>
+    </contato>
+    <idPaciente>5</idPaciente>
+    <idade>28</idade>
+    <dataCadastro>2020-01-10 03:00:00.0 UTC</dataCadastro>
+    <obsGeral>Paciente com alergias</obsGeral>
+    <consultaMedica>
+      <telefone>1122334456</telefone>
+      <celular>11987654323</celular>
+      <email>paulo.lima@example.com</email>
+      <idResponsavel>5</idResponsavel>
+      <nomeResponsavel>Paulo Lima</nomeResponsavel>
+    </consultaMedica>
+    <consultaMedica>
+      <telefone>22659874561</telefone>
+      <idResponsavel>1732305564947</idResponsavel>
+      <nomeResponsavel>Célia</nomeResponsavel>
+    </consultaMedica>
+  </paciente>
+  <paciente>
+    <nomeCompleto>Beatriz Costa</nomeCompleto>
+    <dataNascimento>1985-05-05 03:00:00.0 UTC</dataNascimento>
+    <genero>FEMININO</genero>
+    <endereco>
+      <rua>Rua das Margaridas</rua>
+      <bairro>Centro</bairro>
+      <cidade>Curitiba</cidade>
+      <estado>Parana</estado>
+      <cep>98765432</cep>
+      <numero>150</numero>
+    </endereco>
+    <contato>
+      <telefone>4131234567</telefone>
+      <celular>41987654324</celular>
+      <email>beatriz.costa@example.com</email>
+    </contato>
+    <idPaciente>6</idPaciente>
+    <idade>35</idade>
+    <dataCadastro>2018-07-20 03:00:00.0 UTC</dataCadastro>
+    <obsGeral>Paciente com hipertensao</obsGeral>
+    <consultaMedica>
+      <telefone>4131234567</telefone>
+      <celular>41987654324</celular>
+      <email>lucas.costa@example.com</email>
+      <idResponsavel>6</idResponsavel>
+      <nomeResponsavel>Lucas Costa</nomeResponsavel>
+    </consultaMedica>
+    <consultaMedica>
+      <telefone>22-956874123</telefone>
+      <idResponsavel>1732376216734</idResponsavel>
+      <nomeResponsavel>Nadir</nomeResponsavel>
+    </consultaMedica>
+  </paciente>
+  <paciente>
+    <nomeCompleto>Rafael Nunes</nomeCompleto>
+    <dataNascimento>1978-10-03 03:00:00.0 UTC</dataNascimento>
+    <genero>MASCULINO</genero>
+    <endereco>
+      <rua>Rua das Palmeiras</rua>
+      <bairro>Centro</bairro>
+      <cidade>Sao Paulo</cidade>
+      <estado>Sao Paulo</estado>
+      <cep>12345678</cep>
+      <numero>300</numero>
+    </endereco>
+    <contato>
+      <telefone>1122334457</telefone>
+      <celular>11987654325</celular>
+      <email>rafael.nunes@example.com</email>
+    </contato>
+    <idPaciente>7</idPaciente>
+    <idade>42</idade>
+    <dataCadastro>2010-11-11 02:00:00.0 UTC</dataCadastro>
+    <obsGeral>Paciente com diabetes tipo 2</obsGeral>
+    <consultaMedica>
+      <telefone>1122334457</telefone>
+      <celular>11987654325</celular>
+      <email>mariana.nunes@example.com</email>
+      <idResponsavel>7</idResponsavel>
+      <nomeResponsavel>Mariana Nunes</nomeResponsavel>
+    </consultaMedica>
+  </paciente>
+  <paciente>
+    <nomeCompleto>Estoumjuitobem</nomeCompleto>
+    <dataNascimento>2022-02-01 03:00:00.0 UTC</dataNascimento>
+    <genero>MASCULINO</genero>
+    <endereco>
+      <rua>Brasil</rua>
+      <bairro>Macae</bairro>
+      <cidade>Macaé</cidade>
+      <estado>RJ</estado>
+      <cep>27500000</cep>
+      <numero>22</numero>
+    </endereco>
+    <contato>
+      <telefone>22-981356478</telefone>
+      <celular>22-956841235</celular>
+      <email>mb@gmail.com</email>
+    </contato>
+    <idPaciente>8</idPaciente>
+    <idade>45</idade>
+    <dataCadastro>2024-11-23 03:00:00.0 UTC</dataCadastro>
+    <obsGeral>Sem nada</obsGeral>
+    <consultaMedica>
+      <telefone>22-981346578</telefone>
+      <celular>22-65987456</celular>
+      <email>joaquina@gmail.com</email>
+      <idResponsavel>1</idResponsavel>
+      <nomeResponsavel>Joaquina</nomeResponsavel>
+    </consultaMedica>
+  </paciente>
+</list>

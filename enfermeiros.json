@@ -1,0 +1,68 @@
+[
+  {
+    "idEnfermeiro": 1,
+    "treinadoOpRX": true,
+    "setor": "Radiologia",
+    "chSemanal": 40,
+    "nomeCompleto": "Murilo Silva",
+    "dataNascimento": "May 4, 1985, 12:00:00 AM",
+    "genero": "MASCULINO",
+    "endereco": {
+      "rua": "Rua das Flores",
+      "bairro": "Centro",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "cep": 12345678,
+      "numero": 101
+    },
+    "contato": {
+      "telefone": "2123456789",
+      "celular": "21987654321",
+      "email": "murilo.silva@example.com"
+    }
+  },
+  {
+    "idEnfermeiro": 2,
+    "treinadoOpRX": false,
+    "setor": "Pediatria",
+    "chSemanal": 36,
+    "nomeCompleto": "Manuela Costa",
+    "dataNascimento": "Feb 2, 2000, 12:00:00 AM",
+    "genero": "FEMININO",
+    "endereco": {
+      "rua": "Avenida Paulista",
+      "bairro": "Bela Vista",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": 12345678,
+      "numero": 202
+    },
+    "contato": {
+      "telefone": "1134567890",
+      "celular": "11987654321",
+      "email": "manuela.costa@example.com"
+    }
+  },
+  {
+    "idEnfermeiro": 3,
+    "treinadoOpRX": true,
+    "setor": "Emergência",
+    "chSemanal": 42,
+    "nomeCompleto": "Carlos Almeida",
+    "dataNascimento": "Jan 1, 1990, 12:00:00 AM",
+    "genero": "MASCULINO",
+    "endereco": {
+      "rua": "Rua das Palmeiras",
+      "bairro": "Botafogo",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "cep": 12345678,
+      "numero": 305
+    },
+    "contato": {
+      "telefone": "2134567890",
+      "celular": "21987654321",
+      "email": "carlos.almeida@example.com"
+    }
+  }
+]

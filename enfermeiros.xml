@@ -1,0 +1,62 @@
+<list>
+  <Enfermeiro idEnfermeiro="1" treinadoOpRX="true">
+    <nomeCompleto>Murilo Silva</nomeCompleto>
+    <dataNascimento>1985-05-04 03:00:00.0 UTC</dataNascimento>
+    <genero>MASCULINO</genero>
+    <endereco>
+      <rua>Rua das Flores</rua>
+      <bairro>Centro</bairro>
+      <cidade>Rio de Janeiro</cidade>
+      <estado>RJ</estado>
+      <cep>12345678</cep>
+      <numero>101</numero>
+    </endereco>
+    <contato>
+      <telefone>2123456789</telefone>
+      <celular>21987654321</celular>
+      <email>murilo.silva@example.com</email>
+    </contato>
+    <setor>Radiologia</setor>
+    <chSemanal>40</chSemanal>
+  </Enfermeiro>
+  <Enfermeiro idEnfermeiro="2" treinadoOpRX="false">
+    <nomeCompleto>Manuela Costa</nomeCompleto>
+    <dataNascimento>2000-02-02 02:00:00.0 UTC</dataNascimento>
+    <genero>FEMININO</genero>
+    <endereco>
+      <rua>Avenida Paulista</rua>
+      <bairro>Bela Vista</bairro>
+      <cidade>SÃ£o Paulo</cidade>
+      <estado>SP</estado>
+      <cep>12345678</cep>
+      <numero>202</numero>
+    </endereco>
+    <contato>
+      <telefone>1134567890</telefone>
+      <celular>11987654321</celular>
+      <email>manuela.costa@example.com</email>
+    </contato>
+    <setor>Pediatria</setor>
+    <chSemanal>36</chSemanal>
+  </Enfermeiro>
+  <Enfermeiro idEnfermeiro="3" treinadoOpRX="true">
+    <nomeCompleto>Carlos Almeida</nomeCompleto>
+    <dataNascimento>1990-01-01 02:00:00.0 UTC</dataNascimento>
+    <genero>MASCULINO</genero>
+    <endereco>
+      <rua>Rua das Palmeiras</rua>
+      <bairro>Botafogo</bairro>
+      <cidade>Rio de Janeiro</cidade>
+      <estado>RJ</estado>
+      <cep>12345678</cep>
+      <numero>305</numero>
+    </endereco>
+    <contato>
+      <telefone>2134567890</telefone>
+      <celular>21987654321</celular>
+      <email>carlos.almeida@example.com</email>
+    </contato>
+    <setor>EmergÃªncia</setor>
+    <chSemanal>42</chSemanal>
+  </Enfermeiro>
+</list>

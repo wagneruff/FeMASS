@@ -1,0 +1,47 @@
+[
+  {
+    "idConsulta": 1,
+    "idPaciente": 2,
+    "idMedico": 1,
+    "exameQueixa": "Dor lombar",
+    "diagnostico": "Sem nada",
+    "prescricao": "Novalgina",
+    "indicacaoCirurgica": false
+  },
+  {
+    "idConsulta": 2,
+    "idPaciente": 3,
+    "idMedico": 2,
+    "exameQueixa": "Tosse persistente",
+    "diagnostico": "Bronquite",
+    "prescricao": "Xarope expectorante",
+    "indicacaoCirurgica": false
+  },
+  {
+    "idConsulta": 3,
+    "idPaciente": 4,
+    "idMedico": 3,
+    "exameQueixa": "Dores no peito",
+    "diagnostico": "Angina",
+    "prescricao": "Nitroglicerina",
+    "indicacaoCirurgica": false
+  },
+  {
+    "idConsulta": 4,
+    "idPaciente": 5,
+    "idMedico": 4,
+    "exameQueixa": "Dor de cabeca",
+    "diagnostico": "Migrania",
+    "prescricao": "Ibuprofeno",
+    "indicacaoCirurgica": false
+  },
+  {
+    "idConsulta": 5,
+    "idPaciente": 6,
+    "idMedico": 5,
+    "exameQueixa": "Nausea e vomito",
+    "diagnostico": "Gastroenterite",
+    "prescricao": "Soro reidratante",
+    "indicacaoCirurgica": false
+  }
+]

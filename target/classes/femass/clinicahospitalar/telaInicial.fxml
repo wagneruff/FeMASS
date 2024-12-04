@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="980.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="femass.clinicahospitalar.TelaInicialController">
+   <children>
+      <AnchorPane prefHeight="20.0" prefWidth="876.0">
+         <children>
+            <MenuBar layoutY="1.0" prefHeight="26.0" prefWidth="980.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="Consulta">
+                  <items>
+                    <MenuItem fx:id="mConsPaciente" mnemonicParsing="false" onAction="#switchToConsultaPaciente" text="Paciente" />
+                        <MenuItem fx:id="mConsMedico" mnemonicParsing="false" onAction="#switchToConsultaMedico" text="Médico" />
+                        <MenuItem fx:id="mConsEnfermeiro" mnemonicParsing="false" onAction="#switchToConsultaEnfermeiro" text="Enfermeiro" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Cadastro">
+                  <items>
+                    <MenuItem fx:id="mCadastroPaciente" mnemonicParsing="false" onAction="#switchCadastroPaciente" text="Paciente" />
+                        <MenuItem fx:id="mCadastroMedico" mnemonicParsing="false" onAction="#switchCadastroMedico" text="Médico" />
+                        <MenuItem fx:id="mCadatroEnfermeiro" mnemonicParsing="false" onAction="#switchCadastroEnfermeiro" text="Enfermeiro" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Gerenciamento">
+                  <items>
+                    <MenuItem fx:id="tfConsultaAgendamento" mnemonicParsing="false" onAction="#switchConsultaMedica" text="Consultas Agendadas" />
+                        <MenuItem fx:id="tfCadastroConsultas" mnemonicParsing="false" onAction="#switchCadastroConsultaMedica" text="Cadastrar Consultas" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="551.0" fitWidth="457.0" layoutX="29.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../enfermeira.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="539.0" layoutY="102.0" prefHeight="35.0" prefWidth="291.0" text="CLÍNICA HOSPITALAR" textAlignment="JUSTIFY" underline="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="624.0" layoutY="248.0" text="PERSISTÊNCIA" textFill="#060215">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="rbJason" layoutX="641.0" layoutY="296.0" mnemonicParsing="false" onAction="#setmetodopersistencia" text="JSON">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="Persistência" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="rbXml" layoutX="641.0" layoutY="342.0" mnemonicParsing="false" onAction="#setmetodopersistencia" text="XML" toggleGroup="$Persistência">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+   </children>
+</Pane>

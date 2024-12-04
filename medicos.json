@@ -1,0 +1,142 @@
+[
+  {
+    "idmedico": 1,
+    "numeroCRM": 125,
+    "areasEspecialidade": [
+      "Nutricionista",
+      "Fonoaudiologa",
+      "Geriatria"
+    ],
+    "cirurgiao": false,
+    "setor": "Cardiologia",
+    "chSemanal": 20,
+    "nomeCompleto": "Carlos Silva",
+    "dataNascimento": "Jul 12, 1985, 12:00:00 AM",
+    "genero": "MASCULINO",
+    "endereco": {
+      "rua": "Rua das Flores",
+      "bairro": "Centro",
+      "cidade": "Sao Paulo",
+      "estado": "Sao Paulo",
+      "cep": 12345678,
+      "numero": 100
+    },
+    "contato": {
+      "telefone": "11987654321",
+      "celular": "11987654322",
+      "email": "carlos.silva@example.com"
+    }
+  },
+  {
+    "idmedico": 2,
+    "numeroCRM": 897,
+    "areasEspecialidade": [
+      "Nutrologa",
+      "Neurologista",
+      "Clínico Geral"
+    ],
+    "cirurgiao": true,
+    "setor": "Neurologia",
+    "chSemanal": 35,
+    "nomeCompleto": "Maria Souza",
+    "dataNascimento": "May 15, 1978, 12:00:00 AM",
+    "genero": "FEMININO",
+    "endereco": {
+      "rua": "Avenida Paulista",
+      "bairro": "Bela Vista",
+      "cidade": "Sao Paulo",
+      "estado": "Sao Paulo",
+      "cep": 87654321,
+      "numero": 200
+    },
+    "contato": {
+      "telefone": "1134567890",
+      "celular": "11912345678",
+      "email": "maria.souza@example.com"
+    }
+  },
+  {
+    "idmedico": 3,
+    "numeroCRM": 234,
+    "areasEspecialidade": [
+      "Cardiologista",
+      "Geriatra",
+      "Pediatra"
+    ],
+    "cirurgiao": true,
+    "setor": "Cardiologia",
+    "chSemanal": 40,
+    "nomeCompleto": "Roberto Almeida",
+    "dataNascimento": "Mar 10, 1970, 12:00:00 AM",
+    "genero": "MASCULINO",
+    "endereco": {
+      "rua": "Rua das Laranjeiras",
+      "bairro": "Botafogo",
+      "cidade": "Rio de Janeiro",
+      "estado": "Rio de Janeiro",
+      "cep": 22240110,
+      "numero": 101
+    },
+    "contato": {
+      "telefone": "2123456789",
+      "celular": "21987654321",
+      "email": "roberto.almeida@example.com"
+    }
+  },
+  {
+    "idmedico": 4,
+    "numeroCRM": 678,
+    "areasEspecialidade": [
+      "Pediatra",
+      "Endocrinologista",
+      "Geriatra"
+    ],
+    "cirurgiao": false,
+    "setor": "Pediatria",
+    "chSemanal": 30,
+    "nomeCompleto": "Ana Pereira",
+    "dataNascimento": "Oct 5, 1982, 12:00:00 AM",
+    "genero": "FEMININO",
+    "endereco": {
+      "rua": "Rua das Acacias",
+      "bairro": "Jardim Botanico",
+      "cidade": "Sao Paulo",
+      "estado": "Sao Paulo",
+      "cep": 12345679,
+      "numero": 202
+    },
+    "contato": {
+      "telefone": "1122334456",
+      "celular": "11987654323",
+      "email": "ana.pereira@example.com"
+    }
+  },
+  {
+    "idmedico": 5,
+    "numeroCRM": 456,
+    "areasEspecialidade": [
+      "Dermatologista",
+      "Alergologista",
+      "Pediatra"
+    ],
+    "cirurgiao": false,
+    "setor": "Dermatologia",
+    "chSemanal": 25,
+    "nomeCompleto": "Luiza Mende",
+    "dataNascimento": "Aug 15, 1990, 12:00:00 AM",
+    "genero": "FEMININO",
+    "endereco": {
+      "rua": "Rua das Margaridas",
+      "bairro": "Centro",
+      "cidade": "Curitiba",
+      "estado": "ParanÃ¡",
+      "cep": 98765432,
+      "numero": 150
+    },
+    "contato": {
+      "telefone": "4131234567",
+      "celular": "41987654324",
+      "email": "luiza.mendes@example.com"
+    }
+  }
+]

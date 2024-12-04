@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="femass.clinicahospitalar.EnfConsultaController">
+    <children>
+      <ScrollPane layoutX="1.0" layoutY="5.0">
+         <content>
+              <TableView fx:id="tConsultaEnf" prefHeight="523.0" prefWidth="965.0">
+                  <columns>
+                      <TableColumn fx:id="tID" prefWidth="32.800019800662994" text="ID" />
+                      <TableColumn fx:id="tNome" minWidth="0.0" prefWidth="150.0" text="Nome" />
+                      <TableColumn fx:id="tSetor" minWidth="0.0" prefWidth="76.0" text="Setor" />
+                      <TableColumn fx:id="tOpRX" minWidth="0.0" prefWidth="60.0" text="OpRX" />
+                      <TableColumn fx:id="tDtNas" minWidth="0.0" prefWidth="120.0" text="Dt Nascimento" />
+                      <TableColumn fx:id="tCargaHoraria" minWidth="0.0" prefWidth="60.0" text="CH" />
+                      <TableColumn fx:id="tGenero" minWidth="0.0" prefWidth="100.0" text="Gênero" />
+                  <TableColumn fx:id="tfRua" minWidth="0.0" prefWidth="150.0" text="Rua" />
+                  <TableColumn fx:id="tfCidade" minWidth="0.0" prefWidth="120.0" text="Cidade" />
+                  <TableColumn fx:id="tfBairro" minWidth="0.0" prefWidth="120.0" text="Bairro" />
+                  <TableColumn fx:id="tfEstado" minWidth="0.0" prefWidth="60.0" text="Estado" />
+                  <TableColumn fx:id="tfNumero" minWidth="0.0" prefWidth="60.0" text="Número" />
+                  <TableColumn fx:id="tfCep" minWidth="0.0" prefWidth="100.0" text="CEP" />
+                  <TableColumn fx:id="tfTelefone" minWidth="0.0" prefWidth="120.0" text="Telefone" />
+                  <TableColumn fx:id="tfCelular" minWidth="0.0" prefWidth="120.0" text="Celular" />
+                  <TableColumn fx:id="tfEmail" minWidth="0.0" prefWidth="200.0" text="E-mail" />
+                  </columns>
+              </TableView>
+         </content>
+      </ScrollPane>
+      <Button fx:id="btDeletarE" layoutX="372.0" layoutY="585.0" mnemonicParsing="false" onAction="#deletarEnfermeiro" prefHeight="25.0" prefWidth="132.0" text="Deletar" />
+      <Button fx:id="btEdtitarE" layoutX="659.0" layoutY="585.0" mnemonicParsing="false" onAction="#editarEnfermeiro" prefHeight="25.0" prefWidth="132.0" text="Editar" />
+      <Button fx:id="btTelaInicial" layoutX="57.0" layoutY="585.0" mnemonicParsing="false" onAction="#switchTelaInicial1" prefHeight="25.0" prefWidth="139.0" style="-fx-background-color: #b5b3b7;" text="Tela Inicial" />
+    </children>
+</Pane>

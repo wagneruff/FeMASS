@@ -1,0 +1,132 @@
+<list>
+  <medico>
+    <nomeCompleto>Carlos Silva</nomeCompleto>
+    <dataNascimento>1985-07-12 03:00:00.0 UTC</dataNascimento>
+    <genero>MASCULINO</genero>
+    <endereco>
+      <rua>Rua das Flores</rua>
+      <bairro>Centro</bairro>
+      <cidade>Sao Paulo</cidade>
+      <estado>Sao Paulo</estado>
+      <cep>12345678</cep>
+      <numero>100</numero>
+    </endereco>
+    <contato>
+      <telefone>11987654321</telefone>
+      <celular>11987654322</celular>
+      <email>carlos.silva@example.com</email>
+    </contato>
+    <setor>Cardiologia</setor>
+    <chSemanal>20</chSemanal>
+    <idMedico>1</idMedico>
+    <crm>125</crm>
+    <string>Nutricionista</string>
+    <string>Fonoaudiologa</string>
+    <string>Geriatria</string>
+    <cirurgiao>false</cirurgiao>
+  </medico>
+  <medico>
+    <nomeCompleto>Maria Souza</nomeCompleto>
+    <dataNascimento>1978-05-15 03:00:00.0 UTC</dataNascimento>
+    <genero>FEMININO</genero>
+    <endereco>
+      <rua>Avenida Paulista</rua>
+      <bairro>Bela Vista</bairro>
+      <cidade>Sao Paulo</cidade>
+      <estado>Sao Paulo</estado>
+      <cep>87654321</cep>
+      <numero>200</numero>
+    </endereco>
+    <contato>
+      <telefone>1134567890</telefone>
+      <celular>11912345678</celular>
+      <email>maria.souza@example.com</email>
+    </contato>
+    <setor>Neurologia</setor>
+    <chSemanal>35</chSemanal>
+    <idMedico>2</idMedico>
+    <crm>897</crm>
+    <string>Nutrologa</string>
+    <string>Neurologista</string>
+    <string>Clínico Geral</string>
+    <cirurgiao>true</cirurgiao>
+  </medico>
+  <medico>
+    <nomeCompleto>Roberto Almeida</nomeCompleto>
+    <dataNascimento>1970-03-10 03:00:00.0 UTC</dataNascimento>
+    <genero>MASCULINO</genero>
+    <endereco>
+      <rua>Rua das Laranjeiras</rua>
+      <bairro>Botafogo</bairro>
+      <cidade>Rio de Janeiro</cidade>
+      <estado>Rio de Janeiro</estado>
+      <cep>22240110</cep>
+      <numero>101</numero>
+    </endereco>
+    <contato>
+      <telefone>2123456789</telefone>
+      <celular>21987654321</celular>
+      <email>roberto.almeida@example.com</email>
+    </contato>
+    <setor>Cardiologia</setor>
+    <chSemanal>40</chSemanal>
+    <idMedico>3</idMedico>
+    <crm>234</crm>
+    <string>Cardiologista</string>
+    <string>Geriatra</string>
+    <string>Pediatra</string>
+    <cirurgiao>true</cirurgiao>
+  </medico>
+  <medico>
+    <nomeCompleto>Ana Pereira</nomeCompleto>
+    <dataNascimento>1982-10-05 03:00:00.0 UTC</dataNascimento>
+    <genero>FEMININO</genero>
+    <endereco>
+      <rua>Rua das Acacias</rua>
+      <bairro>Jardim Botanico</bairro>
+      <cidade>Sao Paulo</cidade>
+      <estado>Sao Paulo</estado>
+      <cep>12345679</cep>
+      <numero>202</numero>
+    </endereco>
+    <contato>
+      <telefone>1122334456</telefone>
+      <celular>11987654323</celular>
+      <email>ana.pereira@example.com</email>
+    </contato>
+    <setor>Pediatria</setor>
+    <chSemanal>30</chSemanal>
+    <idMedico>4</idMedico>
+    <crm>678</crm>
+    <string>Pediatra</string>
+    <string>Endocrinologista</string>
+    <string>Geriatra</string>
+    <cirurgiao>false</cirurgiao>
+  </medico>
+  <medico>
+    <nomeCompleto>Luiza Mende</nomeCompleto>
+    <dataNascimento>1990-08-15 03:00:00.0 UTC</dataNascimento>
+    <genero>FEMININO</genero>
+    <endereco>
+      <rua>Rua das Margaridas</rua>
+      <bairro>Centro</bairro>
+      <cidade>Curitiba</cidade>
+      <estado>ParanÃ¡</estado>
+      <cep>98765432</cep>
+      <numero>150</numero>
+    </endereco>
+    <contato>
+      <telefone>4131234567</telefone>
+      <celular>41987654324</celular>
+      <email>luiza.mendes@example.com</email>
+    </contato>
+    <setor>Dermatologia</setor>
+    <chSemanal>25</chSemanal>
+    <idMedico>5</idMedico>
+    <crm>456</crm>
+    <string>Dermatologista</string>
+    <string>Alergologista</string>
+    <string>Pediatra</string>
+    <cirurgiao>false</cirurgiao>
+  </medico>
+</list>

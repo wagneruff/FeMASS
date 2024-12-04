@@ -1,0 +1,47 @@
+<list>
+  <consultaMedica>
+    <idConsulta>1</idConsulta>
+    <idPaciente>2</idPaciente>
+    <idMedico>1</idMedico>
+    <exameQueixa>Dor lombar</exameQueixa>
+    <diagnostico>Sem nada</diagnostico>
+    <prescricao>Novalgina</prescricao>
+    <indicacaoCirurgica>false</indicacaoCirurgica>
+  </consultaMedica>
+  <consultaMedica>
+    <idConsulta>2</idConsulta>
+    <idPaciente>3</idPaciente>
+    <idMedico>2</idMedico>
+    <exameQueixa>Tosse persistente</exameQueixa>
+    <diagnostico>Bronquite</diagnostico>
+    <prescricao>Xarope expectorante</prescricao>
+    <indicacaoCirurgica>false</indicacaoCirurgica>
+  </consultaMedica>
+  <consultaMedica>
+    <idConsulta>3</idConsulta>
+    <idPaciente>4</idPaciente>
+    <idMedico>3</idMedico>
+    <exameQueixa>Dores no peito</exameQueixa>
+    <diagnostico>Angina</diagnostico>
+    <prescricao>Nitroglicerina</prescricao>
+    <indicacaoCirurgica>false</indicacaoCirurgica>
+  </consultaMedica>
+  <consultaMedica>
+    <idConsulta>4</idConsulta>
+    <idPaciente>5</idPaciente>
+    <idMedico>4</idMedico>
+    <exameQueixa>Dor de cabeca</exameQueixa>
+    <diagnostico>Migrania</diagnostico>
+    <prescricao>Ibuprofeno</prescricao>
+    <indicacaoCirurgica>false</indicacaoCirurgica>
+  </consultaMedica>
+  <consultaMedica>
+    <idConsulta>5</idConsulta>
+    <idPaciente>6</idPaciente>
+    <idMedico>5</idMedico>
+    <exameQueixa>Nausea e vomito</exameQueixa>
+    <diagnostico>Gastroenterite</diagnostico>
+    <prescricao>Soro reidratante</prescricao>
+    <indicacaoCirurgica>false</indicacaoCirurgica>
+  </consultaMedica>
+</list>

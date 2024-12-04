@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="femass.clinicahospitalar.ResponsavelCadController">
+   <children>
+      <TextField fx:id="tbNome" layoutX="351.0" layoutY="114.0" prefHeight="25.0" prefWidth="427.0" promptText="Nome" />
+      <Button fx:id="btCadastrar" layoutX="623.0" layoutY="317.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="156.0" text="CADASTRAR REGISTRO" />
+      <Button fx:id="btTelaInicial" layoutX="347.0" layoutY="317.0" mnemonicParsing="false" onAction="#switchTelaInicial" prefHeight="25.0" prefWidth="156.0" text="TELA INICIAL" />
+      <TextField fx:id="tfIDResponsavel" layoutX="251.0" layoutY="114.0" prefHeight="25.0" prefWidth="55.0" promptText="ID Responsavel" />
+      <TextField fx:id="tfTelResponsavel" layoutX="351.0" layoutY="170.0" promptText="Tel Responsável" />
+      <TextField fx:id="tfCelularResp" layoutX="630.0" layoutY="170.0" promptText="Celular Responsável" />
+      <TextField fx:id="tfEmailRespons" layoutX="351.0" layoutY="224.0" prefHeight="25.0" prefWidth="241.0" promptText="E-mail Responsável" />
+      <Label layoutX="213.0" layoutY="114.0" text="ID">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="186.0" layoutY="58.0" prefHeight="17.0" prefWidth="593.0" text="RESPONSÁVEL">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>        
+   </children>
+</Pane>

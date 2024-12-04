@@ -1,0 +1,279 @@
+[
+  {
+    "idPaciente": 1,
+    "idade": 23,
+    "dataCadastro": "Feb 12, 2012, 12:00:00 AM",
+    "obsGeral": "Paciente saudavel",
+    "contatoResponsavel": [
+      {
+        "idResponsavel": 1,
+        "nomeResponsavel": "Claudia Silva",
+        "telefone": "1122334455",
+        "celular": "11987654321",
+        "email": "claudia.silva@example.com"
+      }
+    ],
+    "nomeCompleto": "Joao Silva",
+    "dataNascimento": "Jan 1, 1999, 12:00:00 AM",
+    "genero": "MASCULINO",
+    "endereco": {
+      "rua": "Rua das Palmeiras",
+      "bairro": "Centro",
+      "cidade": "Sao Paulo",
+      "estado": "Sao Paulo",
+      "cep": 12345678,
+      "numero": 100
+    },
+    "contato": {
+      "telefone": "1122334455",
+      "celular": "11987654321",
+      "email": "joao.silva@example.com"
+    }
+  },
+  {
+    "idPaciente": 2,
+    "idade": 55,
+    "dataCadastro": "Feb 23, 2000, 12:00:00 AM",
+    "obsGeral": "Paciente com historico de hipertensao",
+    "contatoResponsavel": [
+      {
+        "idResponsavel": 2,
+        "nomeResponsavel": "Carlos Oliveira",
+        "telefone": "2134567890",
+        "celular": "21912345678",
+        "email": "carlos.oliveira@example.com"
+      },
+      {
+        "idResponsavel": 1732315742969,
+        "nomeResponsavel": "Márcio",
+        "telefone": "11-981654782"
+      }
+    ],
+    "nomeCompleto": "Maria Oliveira",
+    "dataNascimento": "Mar 15, 1965, 12:00:00 AM",
+    "genero": "FEMININO",
+    "endereco": {
+      "rua": "Avenida Brasil",
+      "bairro": "Jardim",
+      "cidade": "Rio de Janeiro",
+      "estado": "Rio de Janeiro",
+      "cep": 87654321,
+      "numero": 200
+    },
+    "contato": {
+      "telefone": "2134567890",
+      "celular": "21912345678",
+      "email": "maria.oliveira@example.com"
+    }
+  },
+  {
+    "idPaciente": 3,
+    "idade": 44,
+    "dataCadastro": "Feb 2, 2022, 12:00:00 AM",
+    "obsGeral": "Paciente diabetico",
+    "contatoResponsavel": [
+      {
+        "idResponsavel": 3,
+        "nomeResponsavel": "Ana Pereira",
+        "telefone": "4135678901",
+        "celular": "41923456789",
+        "email": "ana.pereira@example.com"
+      },
+      {
+        "idResponsavel": 1732323295900,
+        "nomeResponsavel": "Maria",
+        "pacientes": [],
+        "telefone": "11-265987456"
+      }
+    ],
+    "nomeCompleto": "Carlos Pereira",
+    "dataNascimento": "Apr 20, 1978, 12:00:00 AM",
+    "genero": "MASCULINO",
+    "endereco": {
+      "rua": "Rua das Flores",
+      "bairro": "Bairro Novo",
+      "cidade": "Curitiba",
+      "estado": "Parana",
+      "cep": 54321098,
+      "numero": 300
+    },
+    "contato": {
+      "telefone": "4135678901",
+      "celular": "41923456789",
+      "email": "carlos.pereira@example.com"
+    }
+  },
+  {
+    "idPaciente": 4,
+    "idade": 30,
+    "dataCadastro": "Mar 15, 2015, 12:00:00 AM",
+    "obsGeral": "Paciente com asma",
+    "contatoResponsavel": [
+      {
+        "idResponsavel": 4,
+        "nomeResponsavel": "Jose Santos",
+        "telefone": "2123456789",
+        "celular": "21987654321",
+        "email": "jose.santos@example.com"
+      },
+      {
+        "idResponsavel": 1732323215866,
+        "nomeResponsavel": "Paulo Cardec",
+        "pacientes": [],
+        "telefone": "21-98654712"
+      }
+    ],
+    "nomeCompleto": "Ana Santos",
+    "dataNascimento": "Aug 25, 1990, 12:00:00 AM",
+    "genero": "FEMININO",
+    "endereco": {
+      "rua": "Rua das Laranjeiras",
+      "bairro": "Jardim Botanico",
+      "cidade": "Rio de Janeiro",
+      "estado": "Rio de Janeiro",
+      "cep": 22240110,
+      "numero": 101
+    },
+    "contato": {
+      "telefone": "2123456789",
+      "celular": "21987654321",
+      "email": "ana.santos@example.com"
+    }
+  },
+  {
+    "idPaciente": 5,
+    "idade": 28,
+    "dataCadastro": "Jan 10, 2020, 12:00:00 AM",
+    "obsGeral": "Paciente com alergias",
+    "contatoResponsavel": [
+      {
+        "idResponsavel": 5,
+        "nomeResponsavel": "Paulo Lima",
+        "telefone": "1122334456",
+        "celular": "11987654323",
+        "email": "paulo.lima@example.com"
+      },
+      {
+        "idResponsavel": 1732305564947,
+        "nomeResponsavel": "Célia",
+        "telefone": "22659874561"
+      }
+    ],
+    "nomeCompleto": "Pedro Lima",
+    "dataNascimento": "Feb 14, 1992, 12:00:00 AM",
+    "genero": "MASCULINO",
+    "endereco": {
+      "rua": "Rua das Acacias",
+      "bairro": "Centro",
+      "cidade": "Sao Paulo",
+      "estado": "Sao Paulo",
+      "cep": 12345679,
+      "numero": 202
+    },
+    "contato": {
+      "telefone": "1122334456",
+      "celular": "11987654323",
+      "email": "pedro.lima@example.com"
+    }
+  },
+  {
+    "idPaciente": 6,
+    "idade": 35,
+    "dataCadastro": "Jul 20, 2018, 12:00:00 AM",
+    "obsGeral": "Paciente com hipertensao",
+    "contatoResponsavel": [
+      {
+        "idResponsavel": 6,
+        "nomeResponsavel": "Lucas Costa",
+        "telefone": "4131234567",
+        "celular": "41987654324",
+        "email": "lucas.costa@example.com"
+      },
+      {
+        "idResponsavel": 1732376216734,
+        "nomeResponsavel": "Nadir",
+        "pacientes": [],
+        "telefone": "22-956874123"
+      }
+    ],
+    "nomeCompleto": "Beatriz Costa",
+    "dataNascimento": "May 5, 1985, 12:00:00 AM",
+    "genero": "FEMININO",
+    "endereco": {
+      "rua": "Rua das Margaridas",
+      "bairro": "Centro",
+      "cidade": "Curitiba",
+      "estado": "Parana",
+      "cep": 98765432,
+      "numero": 150
+    },
+    "contato": {
+      "telefone": "4131234567",
+      "celular": "41987654324",
+      "email": "beatriz.costa@example.com"
+    }
+  },
+  {
+    "idPaciente": 7,
+    "idade": 42,
+    "dataCadastro": "Nov 11, 2010, 12:00:00 AM",
+    "obsGeral": "Paciente com diabetes tipo 2",
+    "contatoResponsavel": [
+      {
+        "idResponsavel": 7,
+        "nomeResponsavel": "Mariana Nunes",
+        "telefone": "1122334457",
+        "celular": "11987654325",
+        "email": "mariana.nunes@example.com"
+      }
+    ],
+    "nomeCompleto": "Rafael Nunes",
+    "dataNascimento": "Oct 3, 1978, 12:00:00 AM",
+    "genero": "MASCULINO",
+    "endereco": {
+      "rua": "Rua das Palmeiras",
+      "bairro": "Centro",
+      "cidade": "Sao Paulo",
+      "estado": "Sao Paulo",
+      "cep": 12345678,
+      "numero": 300
+    },
+    "contato": {
+      "telefone": "1122334457",
+      "celular": "11987654325",
+      "email": "rafael.nunes@example.com"
+    }
+  },
+  {
+    "idPaciente": 8,
+    "idade": 45,
+    "dataCadastro": "Nov 23, 2024, 12:00:00 AM",
+    "obsGeral": "Sem nada",
+    "contatoResponsavel": [
+      {
+        "idResponsavel": 1,
+        "nomeResponsavel": "Joaquina",
+        "pacientes": [],
+        "telefone": "22-981346578",
+        "celular": "22-65987456",
+        "email": "joaquina@gmail.com"
+      }
+    ],
+    "nomeCompleto": "Estoumjuitobem",
+    "dataNascimento": "Feb 1, 2022, 12:00:00 AM",
+    "genero": "MASCULINO",
+    "endereco": {
+      "rua": "Brasil",
+      "bairro": "Macae",
+      "cidade": "Macaé",
+      "estado": "RJ",
+      "cep": 27500000,
+      "numero": 22
+    },
+    "contato": {
+      "telefone": "22-981356478",
+      "celular": "22-956841235",
+      "email": "mb@gmail.com"
+    }
+  }
+]
